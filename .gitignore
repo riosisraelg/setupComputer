@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Secretos / credenciales (NUNCA versionar)
+.config/gh/hosts.yml
+.config/op/
+.config/1Password/
+**/*.token
+**/*secret*
+**/*.pem
+
+# Datos pesados / cache de apps (no son config)
+.config/raycast/
+.config/pgcli/history
+.config/pgcli/log
+
+# Herramientas de IA / agentes (locales)
+.gemini/
+.kiro/
+.agents/
+**/.agents/
+
+# Logs
+log
+*.log

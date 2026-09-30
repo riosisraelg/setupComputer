@@ -1,0 +1,56 @@
+name: "Quiet Light"
+accent:
+  left: '#9340d3'
+  right: '#7b42a6'
+cursor: '#843bc7'
+background:
+  top: '#f7f2fc'
+  bottom: '#ebe1f7'
+foreground: '#333333'
+details:
+  custom:
+    overlay_opacity: 0
+    outline_opacity: 35
+    main_text_opacity: 90
+    sub_text_opacity: 70
+    hint_text_opacity: 50
+    disabled_text_opacity: 25
+    foreground_button_opacity: 35
+    accent_button_opacity: 35
+    button_hover_opacity: 25
+    button_click_opacity: 35
+    accent_overlay_opacity: 50
+    light_overlay_opacity: 8
+    snackbar_outline_opacity: 60
+    snackbar_background_opacity: 45
+    snackbar_active_outline_opacity: 50
+    snackbar_active_background_opacity: 50
+    block_selection_opacity: 25
+    find_bar_button_selection_opacity: 45
+    split_pane_divider_opacity: 50
+    active_pane_border_opacity: 95
+    restored_blocks_overlay_opacity: 25
+    keybinding_row_overlay_opacity: 50
+    voltron_search: 25
+    voltron_sidebar: 20
+    welcome_tips_completion_overlay_opacity: 90
+    sign_in_common_questions_overlay_opacity: 95
+terminal_colors:
+  normal:
+    black: '#333333'
+    red: '#aa3731'
+    green: '#448c27'
+    yellow: '#9c5d27'
+    blue: '#4b69c6'
+    magenta: '#7a3e9d'
+    cyan: '#2e8b57'
+    white: '#c7c7c7'
+  bright:
+    black: '#777777'
+    red: '#cd3131'
+    green: '#59b334'
+    yellow: '#b87333'
+    blue: '#6b8ae8'
+    magenta: '#9c58c3'
+    cyan: '#4ba3c3'
+    white: '#ffffff'

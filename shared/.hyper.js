@@ -1,0 +1,122 @@
+"use strict";
+// Hyper - tema PINK dia/noche, bordes visibles + tabs legibles
+module.exports = {
+  "config": {
+    "updateChannel": "stable",
+    "fontSize": 12,
+    "fontFamily": "\"JetBrainsMono Nerd Font\", Menlo, Monaco, monospace",
+    "fontWeight": "normal",
+    "fontWeightBold": "bold",
+    "lineHeight": 1,
+    "letterSpacing": 0,
+    "cursorColor": "#d6006e",
+    "cursorAccentColor": "#fbe4ee",
+    "cursorShape": "BLOCK",
+    "cursorBlink": false,
+    "foregroundColor": "#5a1236",
+    "backgroundColor": "#fbe4ee",
+    "selectionColor": "rgba(255,45,141,0.2)",
+    "borderColor": "#d16a9c",
+    "css": "\n  .terms_terms { border: 1px solid #d16a9c; }\n  .tabs_list { border-bottom: 2px solid #d16a9c; background-color: #f5d0e2; }\n  .tab_tab { color: #8a3a62; border-right: 1px solid #d16a9c; }\n  .tab_tab.tab_active { color: #5a1236; background-color: #fbe4ee; font-weight: 700; border-bottom: 2px solid #d6006e; }\n  .tab_textInner { color: inherit; }\n  .tab_icon { color: #b4407a; }\n  .tab_icon:hover { background-color: #e6a8c8; }\n  .splitpane_divider { background-color: #d16a9c !important; width: 2px !important; height: 2px !important; }\n",
+    "termCSS": "",
+    "workingDirectory": "",
+    "showHamburgerMenu": "",
+    "showWindowControls": "",
+    "padding": "12px 14px",
+    "colors": {
+      "black": "#3d1028",
+      "red": "#c4005f",
+      "green": "#8f2fb8",
+      "yellow": "#c25e00",
+      "blue": "#d6006e",
+      "magenta": "#a3006b",
+      "cyan": "#e6338f",
+      "white": "#5a1236",
+      "lightBlack": "#8a4a68",
+      "lightRed": "#e60073",
+      "lightGreen": "#a83fd6",
+      "lightYellow": "#d97400",
+      "lightBlue": "#e6338f",
+      "lightMagenta": "#c4006b",
+      "lightCyan": "#ff5fae",
+      "lightWhite": "#3d1028"
+    },
+    "shell": "",
+    "shellArgs": [
+      "--login"
+    ],
+    "env": {
+      "COLORTERM": "truecolor"
+    },
+    "bell": "SOUND",
+    "copyOnSelect": false,
+    "defaultSSHApp": true,
+    "quickEdit": false,
+    "macOptionSelectionMode": "vertical",
+    "webGLRenderer": true,
+    "webLinksActivationKey": "",
+    "disableLigatures": true,
+    "disableAutoUpdates": false,
+    "screenReaderMode": false,
+    "preserveCWD": true,
+    "lightConfigOverrides": {
+      "backgroundColor": "#fbe4ee",
+      "foregroundColor": "#5a1236",
+      "cursorColor": "#d6006e",
+      "cursorAccentColor": "#fbe4ee",
+      "selectionColor": "rgba(255,45,141,0.2)",
+      "borderColor": "#d16a9c",
+      "colors": {
+        "black": "#3d1028",
+        "red": "#c4005f",
+        "green": "#8f2fb8",
+        "yellow": "#c25e00",
+        "blue": "#d6006e",
+        "magenta": "#a3006b",
+        "cyan": "#e6338f",
+        "white": "#5a1236",
+        "lightBlack": "#8a4a68",
+        "lightRed": "#e60073",
+        "lightGreen": "#a83fd6",
+        "lightYellow": "#d97400",
+        "lightBlue": "#e6338f",
+        "lightMagenta": "#c4006b",
+        "lightCyan": "#ff5fae",
+        "lightWhite": "#3d1028"
+      },
+      "css": "\n  .terms_terms { border: 1px solid #d16a9c; }\n  .tabs_list { border-bottom: 2px solid #d16a9c; background-color: #f5d0e2; }\n  .tab_tab { color: #8a3a62; border-right: 1px solid #d16a9c; }\n  .tab_tab.tab_active { color: #5a1236; background-color: #fbe4ee; font-weight: 700; border-bottom: 2px solid #d6006e; }\n  .tab_textInner { color: inherit; }\n  .tab_icon { color: #b4407a; }\n  .tab_icon:hover { background-color: #e6a8c8; }\n  .splitpane_divider { background-color: #d16a9c !important; width: 2px !important; height: 2px !important; }\n"
+    },
+    "darkConfigOverrides": {
+      "backgroundColor": "#2a1a24",
+      "foregroundColor": "#f5d5e0",
+      "cursorColor": "#ff69b4",
+      "cursorAccentColor": "#2a1a24",
+      "selectionColor": "rgba(255,105,180,0.3)",
+      "borderColor": "#7a4560",
+      "colors": {
+        "black": "#3d2530",
+        "red": "#ff4d8d",
+        "green": "#c792ea",
+        "yellow": "#ffab6b",
+        "blue": "#ff8ac4",
+        "magenta": "#ff5fbf",
+        "cyan": "#ffb3d9",
+        "white": "#f5d5e0",
+        "lightBlack": "#6e5560",
+        "lightRed": "#ff6fa3",
+        "lightGreen": "#d7aaff",
+        "lightYellow": "#ffc490",
+        "lightBlue": "#ffa3d3",
+        "lightMagenta": "#ff85cf",
+        "lightCyan": "#ffccec",
+        "lightWhite": "#fff0f6"
+      },
+      "css": "\n  .terms_terms { border: 1px solid #7a4560; }\n  .tabs_list { border-bottom: 2px solid #7a4560; background-color: #201018; }\n  .tab_tab { color: #c99ab0; border-right: 1px solid #7a4560; }\n  .tab_tab.tab_active { color: #ffd5e5; background-color: #2a1a24; font-weight: 700; border-bottom: 2px solid #ff6fa3; }\n  .tab_textInner { color: inherit; }\n  .tab_icon { color: #ff6fa3; }\n  .tab_icon:hover { background-color: #4a2c3a; }\n  .splitpane_divider { background-color: #7a4560 !important; width: 2px !important; height: 2px !important; }\n"
+    }
+  },
+  "plugins": [
+    "hyper-system-theme"
+  ],
+  "localPlugins": [],
+  "keymaps": {}
+};

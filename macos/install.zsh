@@ -12,15 +12,7 @@ install_homebrew() {
     brew update
     brew upgrade
     brew install git
-    brew install wget
-    brew install python
-    brew install openjdk
-    brew install openjdk@17
-    brew install node
-    brew install yarn
     brew install mas
-    brew install awscli
-    brew install jq
     brew install gemini-cli
     brew install tealdeer
     brew install mole
@@ -49,6 +41,12 @@ install_homebrew() {
     mas install 302584613
     mas install 310633997
     mas install 1358823008
+}
+
+install_sdkman() {
+	curl -s "https://get.sdkman.io" | zsh
+	source "$HOME/.sdkman/bin/sdkman-init.sh"
+	sdk version
 }
 
 setup_python() {

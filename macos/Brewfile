@@ -1,0 +1,106 @@
+tap "theboredteam/boring-notch", "https://github.com/TheBoredTeam/homebrew-boring-notch"
+# Official Amazon AWS command-line interface
+brew "awscli"
+cask "domzilla-caffeine"
+brew "ykman"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# GitHub command-line tool
+brew "gh"
+# Mac App Store command-line interface
+brew "mas"
+# CLI for Mermaid library
+brew "mermaid-cli"
+# Deep clean and optimize your Mac
+brew "mole"
+# CLI for MySQL with auto-completion and syntax highlighting
+brew "mycli"
+# Open source relational database management system
+brew "mysql-client"
+# Incremental parsing library
+brew "tree-sitter"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Manage multiple Node.js versions
+brew "nvm"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# CLI for Postgres with auto-completion and syntax highlighting
+brew "pgcli"
+# Generic syntax highlighter
+brew "pygments"
+# File browser
+brew "ranger"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Very fast implementation of tldr in Rust
+brew "tealdeer"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
+# Command-line interface for 1Password
+cask "1password-cli"
+# Enable Windows-like alt-tab
+cask "alt-tab"
+# Terminal interface for Antigravity agents
+cask "antigravity-cli"
+# Temporary notes with calculations and extensible features
+cask "antinote"
+# Local-first and end-to-end encrypted notes app
+cask "anytype@alpha"
+# Chromium based browser
+cask "arc"
+# Not so boring notch That Rocks
+cask "theboredteam/boring-notch/boring-notch", trusted: true
+# Web browser
+cask "firefox"
+# Native desktop AI assistant from Google
+cask "google-gemini"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
+# Find shortcuts for any installed application
+cask "keyclu"
+# Agent-centric IDE with spec-driven development
+cask "kiro"
+# AI-powered productivity tool for the command-line
+cask "kiro-cli"
+# Break time reminder app
+cask "lookaway"
+# Full TeX Live distribution without GUI applications
+cask "mactex-no-gui"
+# Cloud gaming platform
+cask "nvidia-geforce-now"
+# Minecraft launcher
+cask "prismlauncher"
+# Video game digital distribution service
+cask "steam"
+# Menu bar toolkit with keep-awake, system monitor and volume mixer
+cask "vorssaint"
+# Rust-based terminal
+cask "warp"
+# Voice-to-text dictation with AI-powered auto-editing
+cask "wispr-flow"
+cask "ondedrive"
+cask "google-drive"
+cask "utm"
+# Gecko based web browser
+cask "zen@twilight"
+mas "1Password for Safari", id: 1569813296
+mas "Flighty", id: 1358823008
+mas "Keynote", id: 361285480
+mas "Notion Web Clipper", id: 1559269364
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
+mas "RunCatNeo", id: 6757801838
+mas "uBlock Origin Lite", id: 6745342698
+mas "WhatsApp", id: 310633997
+
+# --- Terminal / shell setup (Hyper + zsh + nvim) ---
+brew "fd"
+brew "starship"
+brew "eza"
+brew "bat"
+brew "zsh-syntax-highlighting"
+brew "zsh-autosuggestions"
+cask "font-jetbrains-mono-nerd-font"

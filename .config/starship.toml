@@ -1,0 +1,40 @@
+# Config de Starship - combina con Belafonte (Hyper/Ghostty)
+# Formato del prompt: directorio  rama-git  contexto  simbolo
+
+add_newline = true
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+
+[directory]
+style = "bold cyan"
+truncation_length = 3
+truncate_to_repo = true
+
+[git_branch]
+symbol = " "
+style = "bold magenta"
+
+[git_status]
+style = "bold yellow"
+
+[cmd_duration]
+min_time = 2000
+style = "bold yellow"
+
+[nodejs]
+symbol = " "
+style = "bold green"
+
+[python]
+symbol = " "
+style = "bold blue"
+
+[username]
+show_always = false
+style_user = "bold green"
+
+[hostname]
+ssh_only = true
+style = "bold green"
